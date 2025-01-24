@@ -1,9 +1,9 @@
+public class Main {
     public static void main(String[] args) {
-        // Создание объектов
-        for (int i = 0; i < 5; i++) {
-            new ObjectCounter();
+        for (int i = 0; i < 10; i++) {
+            new Increment();
         }
 
-        // Получение информации о количестве созданных объектов
-        System.out.println("Количество созданных объектов: " + ObjectCounter.getCount());
+        System.out.println("Количество созданных объектов: " + Increment.getCount());
     }
+}
