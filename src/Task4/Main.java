@@ -1,9 +1,12 @@
+// Главный класс для запуска программы
 public class Main {
     public static void main(String[] args) {
-        for (int i = 0; i < 10; i++) {
-            new Increment();
-        }
+        // Создаем несколько объектов
+        Counter obj1 = new Counter();
+        Counter obj2 = new Counter();
+        Counter obj3 = new Counter();
 
-        System.out.println("Количество созданных объектов: " + Increment.getCount());
+        // Получаем информацию о количестве созданных объектов
+        System.out.println("Количество созданных объектов: " + Counter.getCount());
     }
 }
