@@ -1,3 +1,5 @@
+package Task3;
+
 // Класс для выполнения математических операций
 public class Calculator {
 
